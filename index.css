@@ -2,3 +2,14 @@
     margin: 0;
     padding: 0;
 }
+.body{
+    margin: 0;
+    padding: 0;
+}
+.container .header{
+    margin-left: auto;
+    margin-right: auto;
+    background: #293f50;
+    width: 100%
+    height
+}
