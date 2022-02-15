@@ -1,18 +1,50 @@
-.{
-    margin: 0;
-    padding: 0;
-}
 .body{
     margin: 0;
     padding: 0;
 }
-
-
+/*
+    AJEEB COLOUR    
+*/
+.green{
+    color: #648880;
+}
 
 .container .header{
-    margin-left: auto;
-    margin-right: auto;
     background: #293f50;
-    width: 100%
-    height
+    width: 100%;
+}
+
+.container .header .top{
+    width: 66%;
+    /* display: block; */
+    display: flex;
+    justify-content: center;
+  
+    margin-left: auto;
+    margin-right: auto
+        
+
+}
+.container .header .top #sty-con{
+    color: #fff;
+    width: 49%;
+}
+.container .header .top .right{
+    width: 49%;
+}
+.container .header .top .right #nav{
+    float: right;
+    word-spacing: 3vh;
+} 
+.container .header .top .right #nav a{
+    color: #fff;
+    text-decoration: none;
+    /* float: right; */
+
+}
+.container .header .top #sty-con #sty{
+    font-size: 13vh;
+}
+.container .header .top .right #date{
+    float: right;
 }
