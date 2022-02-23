@@ -19,11 +19,9 @@
     width: 66%;
     display: flex;
     justify-content: center;
-  
     margin-left: auto;
     margin-right: auto;
     padding-top: 2%;
-
 }
 .container .header .top #sty-con{
     color: #fff;
@@ -78,13 +76,29 @@
     font-size: 3vh;
 }
 
+
+.image-details{
+}
+.image-details .details{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.image-details .details div{
+    margin-left: auto;
+    margin-right: auto;
+    width: 280px;
+    
+}
+.image-details .details #schedule{
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+
 .mid{
     padding-bottom: 2vh;
     padding-top: 2vh;
     display: grid;
-    /* grid-template-columns: auto auto auto; */
-    
-    
 }
 .mid .f1{
     margin-left: auto;
@@ -93,5 +107,8 @@
 .mid .f1 img{
     width: 280px;
     height: 198px;
-    
+}
+.mid .f1 #middle{
+    padding-left: 25px;
+    padding-right: 25px
 }
