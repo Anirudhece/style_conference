@@ -1,15 +1,13 @@
 .body{
     margin: 0;
     padding: 0;
-    /* font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif; */
-}
+    }
 .green{
     color: #648880;
 }
 .container{
     background: #293f50;
 }
-
 .container .header{
     width: 100%;
     height: 35vh
@@ -30,12 +28,12 @@
 .container .header .top .right{
     width: 49%;
 }
-.container .header .top .right #nav{
+/* .container .header .top .right*/ .nav{ 
     float: right;
     word-spacing: 1vh;
     padding-top: 2vh;
 } 
-.container .header .top .right #nav a{
+/* .container .header .top .right*/ .nav a{ 
     color: #fff;
     text-decoration: none;
 }
@@ -75,10 +73,6 @@
     padding: 20px 30px 20px 30px;
     font-size: 3vh;
 }
-
-
-.image-details{
-}
 .image-details .details{
     display: grid;
     grid-template-columns: auto auto auto;
@@ -87,14 +81,11 @@
     margin-left: auto;
     margin-right: auto;
     width: 280px;
-    
 }
 .image-details .details #schedule{
     padding-left: 25px;
     padding-right: 25px;
 }
-
-
 .mid{
     padding-bottom: 2vh;
     padding-top: 2vh;
@@ -111,4 +102,17 @@
 .mid .f1 #middle{
     padding-left: 25px;
     padding-right: 25px
+}
+.bottom #bottom-nav{
+    width: 66%;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.bottom #bottom-nav .scon{
+    display: flex;
+    justify-content: center;
+    align-items: center
+    /* float: right; */
 }
