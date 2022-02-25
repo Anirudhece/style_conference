@@ -1,7 +1,7 @@
 .body{
     margin: 0;
     padding: 0;
-    }
+}
 .green{
     color: #648880;
 }
@@ -12,7 +12,6 @@
     width: 100%;
     height: 35vh
 }
-
 .container .header .top{
     width: 66%;
     display: flex;
@@ -28,12 +27,12 @@
 .container .header .top .right{
     width: 49%;
 }
-/* .container .header .top .right*/ .nav{ 
+.nav{ 
     float: right;
     word-spacing: 1vh;
     padding-top: 2vh;
 } 
-/* .container .header .top .right*/ .nav a{ 
+.nav a{ 
     color: #fff;
     text-decoration: none;
 }
@@ -59,7 +58,6 @@
     font-size: 4vh;
     text-align: center;
     margin-bottom: 2vh;
-
 }
 .container .bellow .button{
     text-align: center;
@@ -72,6 +70,11 @@
     border: 1px solid #fff;
     padding: 20px 30px 20px 30px;
     font-size: 3vh;
+}
+.image-details{
+    width: 66%;
+    margin-left: auto;
+    margin-right: auto;
 }
 .image-details .details{
     display: grid;
@@ -116,7 +119,6 @@
     display: flex;
     justify-content: center;
     align-items: center
-    /* float: right; */
 }
 .neecha{
     margin-left: auto;
