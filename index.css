@@ -96,6 +96,7 @@
     width: 66%;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 5%
 }
 .image-details .details{
     display: grid;
@@ -133,6 +134,7 @@
     margin-right: auto;
     display: grid;
     grid-template-columns: auto auto auto;
+    margin-bottom: 3.3%;
 }
 .sec{
     width: 280px;
